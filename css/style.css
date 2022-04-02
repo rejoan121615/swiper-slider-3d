@@ -48,6 +48,7 @@ body {
 }
 .swiper-slide img {
   width: 100%;
+  user-select: none;
 }
 
 .swiper-button-prev,
@@ -62,7 +63,8 @@ body {
 }
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  content: "";
+  content: "" !important;
+  display: none;
 }
 
 .swiper-button-prev {

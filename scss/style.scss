@@ -54,6 +54,7 @@ body {
     font-weight: bold;
     img {
         width: 100%;
+        user-select: none;
     }
 }
 
@@ -64,7 +65,8 @@ body {
         display: block;
     }
     &::after {
-        content: "";
+        content: ""!important;
+        display: none;
     }
 }
 
